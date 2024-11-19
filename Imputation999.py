@@ -41,12 +41,7 @@ def imputation999(Infile=None, savedir='/Users/alblle/Desktop/Imputation_Output'
 	if os.path.isdir(savedir) == 0:
 		        os.mkdir(savedir)
 
-	#all_strategies=['Bayesian_Ridge_Regression','Decision_Tree_Regression','Extra_Trees_Regressor','Kneighbours_Regression']
-	#strategy= all_strategies[2]
 	strategy='Extra_Trees_Regressor'
-	# all_params=[1, 2, 3]
-	# params=all_params[0]
-	#params=1	    
 	print('Performing ', strategy, 'inputation on file ', Infile )
 	print('...')
 	#impute missing values       
