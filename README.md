@@ -1,5 +1,9 @@
-# Imputation
+# Imputation of Table data (.csv) missing values using extra trees regressors
 https://pubmed.ncbi.nlm.nih.gov/35971088/
+
+# Input : .csv fikle with missing values coded as 999
+# Output : imputed data file i.e. same data but with no missing values
+
 
 # create and activate the provided virtual environment
 cd to the directory where imputation_conda_env.yml is located

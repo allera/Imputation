@@ -57,15 +57,7 @@ def gui_calls_imputation999():
     os.system(flica_toolbox_path+"/imputation999.py -savedir " + out_dir + ' ' + missing_path)
     return 1
     
-#def noise_est_opts():
-#    global noise
-#    noise='o'
-#    return noise
 
-#def noise_est_opts2():
-#    global noise
-#    noise='R'
-#    return noise
 
 def callback3():
     global out_dir
