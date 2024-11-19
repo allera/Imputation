@@ -13,9 +13,7 @@ Readme:
 
 #How will YOU do !!!!!!!!!!!!
 #cd to the directory where imputation_conda_env.yml is located
-
 conda env create -f imputation_conda_env.yml
-
 conda activate imputation
 
 

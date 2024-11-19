@@ -16,19 +16,13 @@ sys.path.append(os.path.abspath(flica_toolbox_path))
 
 
 
-#http://poquitopicante.blogspot.nl/2013/06/blog-post.html
-#sys.path.append("/home/allera/anaconda/lib/python2.7/lib-tk")
 
-#! /usr/bin/env python
  
 from tkinter import *
 from tkinter.ttk import *
 from tkinter.filedialog import *
 
-#from tkFileDialog import *
 
-#print scriptpath1
-#from flica import *
 #~~~~ FUNCTIONS~~~~
 
 def data_folder():
