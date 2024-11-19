@@ -5,15 +5,12 @@ Created on Wed Sep 22 19:20:07 2021
 
 @author: alblle
 """
-
 import sys
 import os
 import argparse
 import warnings
 warnings.filterwarnings("ignore")
 import numpy as np
-#module_path=''
-#sys.path.append(os.path.abspath(module_path))
 from  Imputation_behavioural  import load_csv, my_inputer
 
 def cli_parser():
